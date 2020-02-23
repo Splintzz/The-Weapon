@@ -200,7 +200,7 @@ script AppDelegate
             set isLoaded to true
             set the stringValue of accessGrantedLabel to "Load Succesful"
             
-            do shell script "open (Enter file path to pages document)"
+            do shell script "open /Users/spencercarr/Desktop/Folders/Coding\\ Projects/Completed\\ Projects/The\\ Weapon/Exit\\ Strategy.pages"
         end if
         
         if ((stringValue of passwordSlot as string) equals passcode) and canLoad doesn't equal true then
