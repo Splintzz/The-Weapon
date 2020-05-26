@@ -8,6 +8,8 @@ The application will take input for the interval between sending messages, the a
 
 When the application runs, it will open a pages document called "Exit Strategy", so if the user wants to cease the spam, he/she can click to that document. The user must enter the pages document's path manually in the code (line 203 in AppDelegate.applescript). It will also automatically open the messages application if it's not open already. 
 
+Use Who's up? to unlock access.
+
 Last important note: This application requires permission access to the messages application; it should give a prompt message explaining this. Make sure to grant access.
 
 <a href="https://imgflip.com/gif/3q0p3i"><img src="https://i.imgflip.com/3q0p3i.gif" title="made at imgflip.com"/></a>
